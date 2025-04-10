@@ -1,0 +1,18 @@
+let minute=10;
+let second=60;
+
+myInterval=setInterval(()=>{
+  if(!minute){
+    clearInterval(myInterval)
+
+  }else if(second===0)
+  {
+    minute=minute-1;
+    second=60;
+
+  }else{
+    second=second-1
+  }
+
+},1000)
+    

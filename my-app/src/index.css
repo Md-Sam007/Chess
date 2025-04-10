@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './animation.css';
+
+.animate-shake{
+    animation: shake   1s;
+}
